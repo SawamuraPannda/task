@@ -5,10 +5,10 @@
 #include <linux/uaccess.h>
 #include <linux/io.h>
 #include <linux/delay.h>
-MODULE_AUTHOR("Ryuichi Ueda");
+MODULE_AUTHOR("Ryuichi Ueda, Taimei Okabe");
 MODULE_DESCRIPTION("driver for LED control");
 MODULE_LICENSE("GPL");
-MODULE_VERSION("0.1");
+MODULE_VERSION("0.2");
 
 static dev_t dev;
 static struct cdev cdv;
